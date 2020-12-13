@@ -1,0 +1,29 @@
+{
+  "name": "bankfy-vue-componentes",
+  "version": "0.0.1",
+  "description": "Vue components for bankfy's projects",
+  "author": "Rafael Affonso",
+  "license": "MIT",
+  "main": "./dist/index.cjs.js",
+  "scripts": {
+    "dev": "vue serve NiceHandsomeButton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "postcss": "^7",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "bili": "^3.4.2",
+    "rollup-plugin-vue": "^4.6.1",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
