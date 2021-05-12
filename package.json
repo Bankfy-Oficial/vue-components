@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "postcss": "^7",
+    "postcss": "^8",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2"
   },
